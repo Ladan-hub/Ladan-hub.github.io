@@ -118,6 +118,7 @@ http://www.templatemo.com/tm-509-hydro
     padding: 15px 30px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
+    margin-top: 20px;
   }
 
   .section-btn:hover,
@@ -189,9 +190,9 @@ http://www.templatemo.com/tm-509-hydro
     animation: spinner .9s linear infinite;
   }
 
-  @-webkit-@keyframes spinner {
+  /* @-webkit-@keyframes spinner {
     to {transform: rotate(360deg);}
-  }
+  } */
 
   @keyframes spinner {
     to {transform: rotate(360deg);}
@@ -310,6 +311,11 @@ http://www.templatemo.com/tm-509-hydro
     .top-nav-collapse .nav .section-btn a {
       color: #ffffff;
     }
+  }
+
+  .navbar-collapse{
+    position: absolute;
+    left: 357px;
   }
 
 
@@ -516,6 +522,7 @@ http://www.templatemo.com/tm-509-hydro
     color: #ffffff;
   }
 
+
   .blog-thumb {
     background: #ffffff;
     -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
@@ -524,7 +531,17 @@ http://www.templatemo.com/tm-509-hydro
     border-radius: 3px;
     text-align: left;
     margin-bottom: 30px;
-    height: 350px;
+    height: 450px;
+    
+    border: #000000 solid;
+  }
+
+
+
+  .project-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
   .media.blog-thumb .media-left {
@@ -551,7 +568,8 @@ http://www.templatemo.com/tm-509-hydro
   }
 
   .blog-info {
-    padding: 75px 25px;
+    padding: 25px;
+   
   }
 
   .blog-info h3 {
