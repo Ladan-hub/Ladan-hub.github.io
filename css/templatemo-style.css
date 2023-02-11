@@ -782,11 +782,18 @@ http://www.templatemo.com/tm-509-hydro
 
   .email{
     color: black;
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
   .linkedin {
-    font-size: large;
+    padding-right: 4px;
+    
+  }
+
+  .linkedin-img{
+    width: 30px;
+    height: 30px;
+
   }
 
   .github{
