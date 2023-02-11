@@ -428,6 +428,12 @@ http://www.templatemo.com/tm-509-hydro
     margin-left: -220px;
   } */
 
+.js-logo{
+  width: 70px;
+    height: 70px;
+    margin-left: 130px;
+}
+
   .work-info img {
     width: 100%;
     border-radius: 100%;
