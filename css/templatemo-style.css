@@ -341,6 +341,11 @@ http://www.templatemo.com/tm-509-hydro
     overflow: hidden;
     padding-top: 10em;
     text-align: left;
+    
+  }
+
+  .container{
+    margin-left: 350px;
   }
 
   #home h1 {
@@ -419,6 +424,10 @@ http://www.templatemo.com/tm-509-hydro
       WORK             
   -----------------------------------------*/
 
+  /* #work{
+    margin-left: -220px;
+  } */
+
   .work-info img {
     width: 100%;
     border-radius: 100%;
@@ -427,7 +436,7 @@ http://www.templatemo.com/tm-509-hydro
   #work .work-thumb {
     overflow: hidden;
     position: relative;
-    cursor: pointer;
+    cursor:default;
     border-radius: 3px;
   }
 
@@ -494,7 +503,9 @@ http://www.templatemo.com/tm-509-hydro
 
   #blog {
     background: #f0f0f0;
+    padding: 90px;
   }
+
 
   #blog-header,
   #blog-detail {
@@ -531,11 +542,8 @@ http://www.templatemo.com/tm-509-hydro
     border-radius: 3px;
     text-align: left;
     margin-bottom: 30px;
-    height: 450px;
-    
-    border: #000000 solid;
+  
   }
-
 
 
   .project-name{
@@ -644,6 +652,10 @@ http://www.templatemo.com/tm-509-hydro
     font-size: 18px;
   }
 
+  #middle-project{
+    position: relative;
+    left: 350px;
+  }
 
 
   /*---------------------------------------
